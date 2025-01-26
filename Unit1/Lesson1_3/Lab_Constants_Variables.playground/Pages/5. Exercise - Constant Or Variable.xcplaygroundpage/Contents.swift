@@ -5,7 +5,7 @@
 - Number of likes: the number of likes that a photo has received
 var numberOfphotoLikes = 290
 - Number of comments: the number of comments other users have left on the photo
-var numberOfComments = 95
+var numberOfphotoComments = 95
 - Year created: The year the post was created
 let yearCreated = 2025
 - Month created: The month the post was created represented by a number between 1 and 12
