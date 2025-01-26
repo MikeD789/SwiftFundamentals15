@@ -6,6 +6,8 @@
 var name: String
 print(name)
 // print(name)
+// No this code does not compile, it causes an error.
+
 
 //:  Now assign a value to `name`, and print it to the console.
 var name = "Mike"
@@ -17,7 +19,9 @@ var distanceTraveled = 0
 
 //:  Now assign a value of 54.3 to `distanceTraveled`. Does the code compile? Go back and set an explicit type on `distanceTraveled` so the code will compile.
 distanceTraveled = 54.3
-// This code will not compile because distanceTraveled was initially inferred to be of type Int when it was assigned the value 0.
+// This code will not compile because distanceTraveled was automatically given the type Int when it was assigned the value 0.
+
+// Set an explicit type on `distanceTraveled` so the code will compile.
 var distanceTraveled: Double = 0
 distanceTraveled = 54.3
 
