@@ -25,16 +25,16 @@ if (hasFish || hasPizza) && hasVegan {
 }
 
 //:  Imagine you're trying to decide whether or not to go on a walk. You decide that you'll go on a walk if it's not raining or if it's 82 degress or warmer and sunny out. Create a constant `isNiceWeather` that is equal to an expression that evaluates to a boolean indicating whether or not the weather is nice enough for you to go for a walk. Write an if statement that will print "I'm going for a walk!" if the weather is nice.
-let temp = 82
+let temp = 70
 let isRaining = true
 let isSunny = true
 // Given weather conditions
-let temp = 82
+let temp = 70
 let isRaining = true
 let isSunny = true
 
 // Create a constant to evaluate if the weather is nice enough for a walk
-let isNiceWeather = !isRaining || (temp >= 82 && isSunny)
+let isNiceWeather = !isRaining || (temp >= 70 && isSunny)
 
 // Write an if statement to print a message based on the weather
 if isNiceWeather {
