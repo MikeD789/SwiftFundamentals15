@@ -10,7 +10,7 @@ var percentCompleted = 0
 //:  Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to `percentCompleted`. Does the code compile? Go back and explicity assign a type to `percentCompleted` that will allow the code to compile.
 var percentCompleted = 0
 percentCompleted = 34.67
-//This code will not compile because percentCompleted was initially inferred to be of type Int when it was assigned the value 0. 
+//This code will not compile because percentCompleted was automatically given  type Int when it was assigned the value 0. 
 var percentCompleted: Double = 0
 percentCompleted = 34.67
 
