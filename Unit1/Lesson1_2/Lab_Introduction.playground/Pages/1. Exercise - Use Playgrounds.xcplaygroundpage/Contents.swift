@@ -16,7 +16,11 @@ print("Artist:Nas")
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
+Use multiple `print` functions to write out some of the lyrics to the song.
+print("Days are shorter, nights are colder") 
+print("Feeling like is over, these snakes strike like a cobra")
+print("The worlds hot my son got knocked evidently")
+print("It's elementary, they want us all go eventually")
 
 
 /*:
