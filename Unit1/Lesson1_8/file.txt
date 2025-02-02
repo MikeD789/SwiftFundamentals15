@@ -1,1 +1,18 @@
-{}
+{1.	What are three of the primary responsibilities of a UIView object?
+Drawing and Rendering - A UIView is responsible for drawing and rendering content on the screen. This includes handling the visual appearance of the view, such as colors, shapes, and images.
+Handling User Interactions - A UIView can respond to user interactions, such as touches, gestures, and other input events. This allows the view to react to user actions and provide interactive experiences.
+Layout and Subview Management - A UIView manages the layout and positioning of its subviews. It determines how its child views are arranged and resized within its bounds, ensuring that the overall interface layout is maintained.
+2.	What does documentation call a view that's embedded in another view?
+In the documentation, a view that's embedded in another view is called a subview. The parent view that contains the subview is referred to as the superview.
+3.	What does documentation call the parent view that's embedding the other view?
+In the documentation, the parent view that's embedding another view is called the superview.
+4.	What is a view's frame?
+A view's frame in iOS represents the view's position and size in its superview's coordinate system. It is defined by a rectangle that specifies the origin (x, y) and the dimensions (width, height) of the view. The frame is used to determine where the view is located within its parent view and how large it is.
+5.	How is a view's bounds different from its frame?
+A view's bounds and frame are both used to describe its size and position, but they refer to different coordinate systems.
+
+The frame of a view represents its position and size in its superview's coordinate system. It is defined by a rectangle that specifies the origin (x, y) and the dimensions (width, height) of the view. The frame is used to determine where the view is located within its parent view and how large it is.
+The bounds of a view represent its internal coordinate system. It is also defined by a rectangle that specifies the origin (x, y) and the dimensions (width, height) of the view, but in the view's own coordinate system. The bounds are used to determine the view's content area and how it is displayed within the view itself.
+The frame is concerned with the view's position and size relative to its superview, while the bounds are concerned with the view's internal content area.
+
+}
