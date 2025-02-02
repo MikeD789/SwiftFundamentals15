@@ -1,12 +1,32 @@
-/*:
+
 ## App Exercise - Converting Types
 
  >These exercises reinforce Swift concepts in the context of a fitness tracking app.
 
- If you completed the Fitness Calculations exercise, you calculated the percent of the daily step goal that a user has achieved. However, you did this by having `steps` be of type `Double`. But you can't really track a partial step, so `steps` should probably be of type `Int`. Go ahead and declare `steps` as type `Int` and give it a value between 500 and 6,000. Then declare `goal` as type `Int` and set it equal to 10,000.
+// If you completed the Fitness Calculations exercise, you calculated the percent of the daily step goal that a user has achieved. However, you did this by having `steps` be of type `Double`. But you can't really track a partial step, so `steps` should probably be of type `Int`. Go ahead and declare `steps` as type `Int` and give it a value between 500 and 6,000. Then declare `goal` as type `Int` and set it equal to 10,000.
+// Declare steps as type Int and give it a value between 500 and 6,000
+let steps: Int = 4500
 
- Now create a constant `percentOfGoal` of type `Double` that equals the percent of the goal that has been reached so far. You'll need to convert your constants of type `Int` to be of type `Double` in your calculation.
+// Declare goal as type Int and set it equal to 10,000
+let goal: Int = 10000
+
+// Print the results
+print("Steps taken: \(steps)")
+print("Step goal: \(goal)")
+
+ // Now create a constant `percentOfGoal` of type `Double` that equals the percent of the goal that has been reached so far. You'll need to convert your constants of type `Int` to be of type `Double` in your calculation.
  */
+// Declare steps as type Int and give it a value between 500 and 6,000
+let steps: Int = 4500
+
+// Declare goal as type Int and set it equal to 10,000
+let goal: Int = 10000
+
+// Calculate the percent of the goal achieved by converting Int to Double
+let percentOfGoal: Double = (Double(steps) / Double(goal)) * 100
+
+// Print the result
+print("The percent of the goal achieved so far is \(percentOfGoal)%")
 
 
 /*:
