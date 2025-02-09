@@ -1,26 +1,27 @@
 //
 //  ViewController.swift
-//  Guided Project_ Light
+//  GuidedProject_light
 //
-//  Created by spring2025 on 2/3/25.
+//  Created by spring2025 on 2/8/25.
 //
 
 import UIKit
 
-class ViewController: UIViewController {    override func viewDidLoad() {
+class ViewController: UIViewController {
+    var lightOn = true
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
-    @IBAction func ButtonPress(_ sender: Any) {
+
+
+    @IBAction func buttonPressed(_ sender: Any) {
         lightOn.toggle()
-        if lightOn {
+        if lightOn{
             view.backgroundColor = .white
-            
-        }else{
+        }else {
             view.backgroundColor = .black
         }
     }
-    
 }
 
