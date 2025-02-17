@@ -11,8 +11,15 @@ struct RunningWorkout {
     var distance: Double
     var time: Double
     var elevation: Double
-    
+    var averageMileTime: Double {
+        return time / (distance / 1600)
+    }
 }
+  
+
+// Create an instance of `RunningWorkout` and print the `averageMileTime` property
+let myRunningWorkout = RunningWorkout(distance: 4800, time: 36, elevation: 150)
+print("Average Mile Time: \(myRunningWorkout.averageMileTime) minutes")
 
 
 /*:
@@ -29,6 +36,26 @@ struct Steps {
     }
 }
 
+struct Steps {
+    var steps: Int {
+        willSet {
+            if newValue == goal {
+                print("Congratulations! You've reached your goal of \(goal) steps!")
+            }
+        }
+    }
+    var goal: Int
+    
+    mutating func takeStep() {
+        steps += 1
+    }
+}
+
+// Create an instance of `Steps` where `steps` is 9999 and `goal` is 10000
+var mySteps = Steps(steps: 9999, goal: 10000)
+print("Steps before: \(mySteps.steps)")
+mySteps.takeStep()
+print("Steps after: \(mySteps.steps)")
 
 /*:
 [Previous](@previous)  |  page 8 of 10  |  [Next: Exercise - Type Properties and Methods](@next)
