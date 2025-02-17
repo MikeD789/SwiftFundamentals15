@@ -4,11 +4,19 @@
  Imagine you have an app that requires the user to log in. You may have a `User` struct similar to that shown below. However, in addition to keeping track of specific user information, you might want to have a way of knowing who the current logged in user is. Create a `currentUser` type property on the `User` struct below and assign it to a `user` object representing you. Now you can access the current user through the `User` struct. Print out the properties of `currentUser`.
  */
 struct User {
-        
     var userName: String
     var email: String
     var age: Int
+
+    static var currentUser: User = User(userName: "Michael", email: "Michael@example.com", age: 30)
 }
+
+// Accessing and printing the properties of `currentUser`
+print("Current User:")
+print("Username: \(User.currentUser.userName)")
+print("Email: \(User.currentUser.email)")
+print("Age: \(User.currentUser.age)")
+
 
 
 /*:
@@ -16,6 +24,29 @@ struct User {
  
  Below, call the `logIn(user:)` method and pass in a different `User` instance than what you assigned to currentUser above. Observe the printout in the console.
  */
+struct User {
+    var userName: String
+    var email: String
+    var age: Int
+
+    static var currentUser: User = User(userName: "Michael", email: "Michael@example.com", age: 30)
+    
+    static func logIn(user: User) {
+        currentUser = user
+        print("\(user.userName) has logged in.")
+    }
+}
+
+// Create a different `User` instance and call the `logIn(user:)` method
+let newUser = User(userName: "Saul", email: "Saul@example.com", age: 25)
+User.logIn(user: newUser)
+
+// Accessing and printing the properties of `currentUser` after login
+print("Current User after login:")
+print("Username: \(User.currentUser.userName)")
+print("Email: \(User.currentUser.email)")
+print("Age: \(User.currentUser.age)")
+
 
 
 /*:
