@@ -55,7 +55,7 @@ struct Steps {
 var mySteps = Steps(steps: 9999, goal: 10000)
 print("Steps before: \(mySteps.steps)")
 mySteps.takeStep()
-print("Steps after: \(mySteps.steps)")
+print("Steps after: \(mySteps.steps)") 
 
 /*:
 [Previous](@previous)  |  page 8 of 10  |  [Next: Exercise - Type Properties and Methods](@next)
