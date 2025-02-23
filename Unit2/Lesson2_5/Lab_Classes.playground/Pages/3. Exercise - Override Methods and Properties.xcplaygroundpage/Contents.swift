@@ -37,12 +37,51 @@ class Fighter: Spaceship {
     }
 }
 //:  Define a new class `ShieldedShip` that inherits from `Fighter`. Add a variable property `shieldStrength` that defaults to 25. Create a new instance of `ShieldedShip` called `defender`. Set `name` to "Defender" and `weapon` to "Cannon." Call `moveRight()` and print `position`, then call `fire()` and print `remainingFirePower`.
+class ShieldedShip: Fighter {
+    var shieldStrength: Int = 25
+}
+let defender = ShieldedShip()
+defender.name = "Defender"
+defender.weapon = "Cannon"
+
+defender.moveRight()
+print("Position after moving right: \(defender.position)")
+
+defender.fire()
+print("Remaining fire power: \(defender.remainingFirePower)"
 
 
 //:  Go back to your declaration of `ShieldedShip` and override `wasHit()`. In the body of the method, check to see if `shieldStrength` is greater than 0. If it is, decrement `shieldStrength` by 5. Otherwise, decrement `health` by 5. Call `wasHit()` on `defender` and print `shieldStrength` and `health`.
+class ShieldedShip: Fighter {
+    var shieldStrength: Int = 25
+    
+    override func wasHit() {
+        if shieldStrength > 0 {
+            shieldStrength -= 5
+        } else {
+            super.wasHit()
+        }
+    }
+}
+
+// Create the instance `defender` again to include the new method
+let defender = ShieldedShip()
+defender.name = "Defender"
+defender.weapon = "Cannon"
+
+// Test `wasHit()` method
+print("Shield strength before hit: \(defender.shieldStrength)")
+print("Health before hit: \(defender.health)")
+defender.wasHit()
+print("Shield strength after hit: \(defender.shieldStrength)")
+print("Health after hit: \(defender.health)")
 
 
 //:  When `shieldStrength` is 0, all `wasHit()` does is decrement `health` by 5. That's exactly what the implementation of `wasHit()` on `Spaceship` does! Instead of rewriting that, you can call through to the superclass implementation of `wasHit()`. Go back to your implementation of `wasHit()` on `ShieldedShip` and remove the code where you decrement `health` by 5 and replace it with a call to the superclass's implementation of the method. Call `wasHit()` on `defender`, then print `shieldStrength` and `health`.
+for _ in 1...5 {
+    defender.wasHit()
+    print("Shield strength: \(defender.shieldStrength), Health: \(defender.health)")
+}
 
 
 /*:
