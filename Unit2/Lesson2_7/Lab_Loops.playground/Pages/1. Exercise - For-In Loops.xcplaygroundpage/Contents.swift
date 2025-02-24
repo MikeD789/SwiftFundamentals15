@@ -15,7 +15,7 @@ for (index, character) in alphabet.enumerated() {
 }
 
 //:  Create a `[String: String]` dictionary, where the keys are names of states and the values are their capitals. Include at least three key/value pairs in your collection, then use a for-in loop to iterate over the pairs and print out the keys and values in a sentence.
-let statesAndCapitals: [String: String] = ["California": "Sacramento", "Texas": "Austin", "New York": "Albany"]
+let statesAndCapitals: [String: String] = ["Georgia": "Atlanta", "Texas": "Austin", "New York": "Albany"]
 
 for (state, capital) in statesAndCapitals {
     print("The capital of \(state) is \(capital).")
