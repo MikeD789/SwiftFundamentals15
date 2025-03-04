@@ -1,14 +1,14 @@
 //
-//  CalculatorTests.swift
-//  CalculatorTests
+//  calculatorTests.swift
+//  calculatorTests
 //
-//  Created by spring2025 on 3/2/25.
+//  Created by spring2025 on 3/3/25.
 //
 
 import Testing
-@testable import Calculator
+@testable import calculator
 
-struct CalculatorTests {
+struct calculatorTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

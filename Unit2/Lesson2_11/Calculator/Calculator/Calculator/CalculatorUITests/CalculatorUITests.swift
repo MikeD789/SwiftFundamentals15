@@ -1,13 +1,13 @@
 //
-//  CalculatorUITests.swift
-//  CalculatorUITests
+//  calculatorUITests.swift
+//  calculatorUITests
 //
-//  Created by spring2025 on 3/2/25.
+//  Created by spring2025 on 3/3/25.
 //
 
 import XCTest
 
-final class CalculatorUITests: XCTestCase {
+final class calculatorUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

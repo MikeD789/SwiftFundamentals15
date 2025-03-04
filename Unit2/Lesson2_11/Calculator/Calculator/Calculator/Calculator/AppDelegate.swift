@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Calculator
+//  calculator
 //
-//  Created by spring2025 on 3/2/25.
+//  Created by spring2025 on 3/3/25.
 //
 
 import UIKit
