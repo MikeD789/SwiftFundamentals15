@@ -1,13 +1,13 @@
 //
-//  ApplePieUITestsLaunchTests.swift
-//  ApplePieUITests
+//  Apple_PieUITestsLaunchTests.swift
+//  Apple PieUITests
 //
-//  Created by spring2025 on 3/6/25.
+//  Created by spring2025 on 3/7/25.
 //
 
 import XCTest
 
-final class ApplePieUITestsLaunchTests: XCTestCase {
+final class Apple_PieUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

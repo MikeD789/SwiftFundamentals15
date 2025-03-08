@@ -1,13 +1,13 @@
 //
-//  ApplePieUITests.swift
-//  ApplePieUITests
+//  Apple_PieUITests.swift
+//  Apple PieUITests
 //
-//  Created by spring2025 on 3/6/25.
+//  Created by spring2025 on 3/7/25.
 //
 
 import XCTest
 
-final class ApplePieUITests: XCTestCase {
+final class Apple_PieUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

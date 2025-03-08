@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		E749DF5A2D796C7900AED704 /* PBXContainerItemProxy */ = {
+		E7D122762D7B2970000A969C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E749DF3B2D796C7800AED704 /* Project object */;
+			containerPortal = E7D122572D7B296E000A969C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E749DF422D796C7800AED704;
-			remoteInfo = ApplePie;
+			remoteGlobalIDString = E7D1225E2D7B296E000A969C;
+			remoteInfo = "Apple Pie";
 		};
-		E749DF642D796C7A00AED704 /* PBXContainerItemProxy */ = {
+		E7D122802D7B2970000A969C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E749DF3B2D796C7800AED704 /* Project object */;
+			containerPortal = E7D122572D7B296E000A969C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E749DF422D796C7800AED704;
-			remoteInfo = ApplePie;
+			remoteGlobalIDString = E7D1225E2D7B296E000A969C;
+			remoteInfo = "Apple Pie";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E749DF432D796C7800AED704 /* ApplePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E749DF592D796C7900AED704 /* ApplePieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E749DF632D796C7A00AED704 /* ApplePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D1225F2D7B296E000A969C /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D122752D7B2970000A969C /* Apple PieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D1227F2D7B2970000A969C /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E749DF6B2D796C7A00AED704 /* Exceptions for "ApplePie" folder in "ApplePie" target */ = {
+		E7D122872D7B2970000A969C /* Exceptions for "Apple Pie" folder in "Apple Pie" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E749DF422D796C7800AED704 /* ApplePie */;
+			target = E7D1225E2D7B296E000A969C /* Apple Pie */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E749DF452D796C7800AED704 /* ApplePie */ = {
+		E7D122612D7B296E000A969C /* Apple Pie */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E749DF6B2D796C7A00AED704 /* Exceptions for "ApplePie" folder in "ApplePie" target */,
+				E7D122872D7B2970000A969C /* Exceptions for "Apple Pie" folder in "Apple Pie" target */,
 			);
-			path = ApplePie;
+			path = "Apple Pie";
 			sourceTree = "<group>";
 		};
-		E749DF5C2D796C7900AED704 /* ApplePieTests */ = {
+		E7D122782D7B2970000A969C /* Apple PieTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ApplePieTests;
+			path = "Apple PieTests";
 			sourceTree = "<group>";
 		};
-		E749DF662D796C7A00AED704 /* ApplePieUITests */ = {
+		E7D122822D7B2970000A969C /* Apple PieUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ApplePieUITests;
+			path = "Apple PieUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E749DF402D796C7800AED704 /* Frameworks */ = {
+		E7D1225C2D7B296E000A969C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E749DF562D796C7900AED704 /* Frameworks */ = {
+		E7D122722D7B2970000A969C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E749DF602D796C7A00AED704 /* Frameworks */ = {
+		E7D1227C2D7B2970000A969C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E749DF3A2D796C7800AED704 = {
+		E7D122562D7B296E000A969C = {
 			isa = PBXGroup;
 			children = (
-				E749DF452D796C7800AED704 /* ApplePie */,
-				E749DF5C2D796C7900AED704 /* ApplePieTests */,
-				E749DF662D796C7A00AED704 /* ApplePieUITests */,
-				E749DF442D796C7800AED704 /* Products */,
+				E7D122612D7B296E000A969C /* Apple Pie */,
+				E7D122782D7B2970000A969C /* Apple PieTests */,
+				E7D122822D7B2970000A969C /* Apple PieUITests */,
+				E7D122602D7B296E000A969C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E749DF442D796C7800AED704 /* Products */ = {
+		E7D122602D7B296E000A969C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E749DF432D796C7800AED704 /* ApplePie.app */,
-				E749DF592D796C7900AED704 /* ApplePieTests.xctest */,
-				E749DF632D796C7A00AED704 /* ApplePieUITests.xctest */,
+				E7D1225F2D7B296E000A969C /* Apple Pie.app */,
+				E7D122752D7B2970000A969C /* Apple PieTests.xctest */,
+				E7D1227F2D7B2970000A969C /* Apple PieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E749DF422D796C7800AED704 /* ApplePie */ = {
+		E7D1225E2D7B296E000A969C /* Apple Pie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E749DF6C2D796C7A00AED704 /* Build configuration list for PBXNativeTarget "ApplePie" */;
+			buildConfigurationList = E7D122882D7B2970000A969C /* Build configuration list for PBXNativeTarget "Apple Pie" */;
 			buildPhases = (
-				E749DF3F2D796C7800AED704 /* Sources */,
-				E749DF402D796C7800AED704 /* Frameworks */,
-				E749DF412D796C7800AED704 /* Resources */,
+				E7D1225B2D7B296E000A969C /* Sources */,
+				E7D1225C2D7B296E000A969C /* Frameworks */,
+				E7D1225D2D7B296E000A969C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E749DF452D796C7800AED704 /* ApplePie */,
+				E7D122612D7B296E000A969C /* Apple Pie */,
 			);
-			name = ApplePie;
+			name = "Apple Pie";
 			packageProductDependencies = (
 			);
-			productName = ApplePie;
-			productReference = E749DF432D796C7800AED704 /* ApplePie.app */;
+			productName = "Apple Pie";
+			productReference = E7D1225F2D7B296E000A969C /* Apple Pie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E749DF582D796C7900AED704 /* ApplePieTests */ = {
+		E7D122742D7B2970000A969C /* Apple PieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E749DF712D796C7A00AED704 /* Build configuration list for PBXNativeTarget "ApplePieTests" */;
+			buildConfigurationList = E7D1228D2D7B2970000A969C /* Build configuration list for PBXNativeTarget "Apple PieTests" */;
 			buildPhases = (
-				E749DF552D796C7900AED704 /* Sources */,
-				E749DF562D796C7900AED704 /* Frameworks */,
-				E749DF572D796C7900AED704 /* Resources */,
+				E7D122712D7B2970000A969C /* Sources */,
+				E7D122722D7B2970000A969C /* Frameworks */,
+				E7D122732D7B2970000A969C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E749DF5B2D796C7900AED704 /* PBXTargetDependency */,
+				E7D122772D7B2970000A969C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E749DF5C2D796C7900AED704 /* ApplePieTests */,
+				E7D122782D7B2970000A969C /* Apple PieTests */,
 			);
-			name = ApplePieTests;
+			name = "Apple PieTests";
 			packageProductDependencies = (
 			);
-			productName = ApplePieTests;
-			productReference = E749DF592D796C7900AED704 /* ApplePieTests.xctest */;
+			productName = "Apple PieTests";
+			productReference = E7D122752D7B2970000A969C /* Apple PieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E749DF622D796C7A00AED704 /* ApplePieUITests */ = {
+		E7D1227E2D7B2970000A969C /* Apple PieUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E749DF742D796C7A00AED704 /* Build configuration list for PBXNativeTarget "ApplePieUITests" */;
+			buildConfigurationList = E7D122902D7B2970000A969C /* Build configuration list for PBXNativeTarget "Apple PieUITests" */;
 			buildPhases = (
-				E749DF5F2D796C7A00AED704 /* Sources */,
-				E749DF602D796C7A00AED704 /* Frameworks */,
-				E749DF612D796C7A00AED704 /* Resources */,
+				E7D1227B2D7B2970000A969C /* Sources */,
+				E7D1227C2D7B2970000A969C /* Frameworks */,
+				E7D1227D2D7B2970000A969C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E749DF652D796C7A00AED704 /* PBXTargetDependency */,
+				E7D122812D7B2970000A969C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E749DF662D796C7A00AED704 /* ApplePieUITests */,
+				E7D122822D7B2970000A969C /* Apple PieUITests */,
 			);
-			name = ApplePieUITests;
+			name = "Apple PieUITests";
 			packageProductDependencies = (
 			);
-			productName = ApplePieUITests;
-			productReference = E749DF632D796C7A00AED704 /* ApplePieUITests.xctest */;
+			productName = "Apple PieUITests";
+			productReference = E7D1227F2D7B2970000A969C /* Apple PieUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E749DF3B2D796C7800AED704 /* Project object */ = {
+		E7D122572D7B296E000A969C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					E749DF422D796C7800AED704 = {
+					E7D1225E2D7B296E000A969C = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					E749DF582D796C7900AED704 = {
+					E7D122742D7B2970000A969C = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = E749DF422D796C7800AED704;
+						TestTargetID = E7D1225E2D7B296E000A969C;
 					};
-					E749DF622D796C7A00AED704 = {
+					E7D1227E2D7B2970000A969C = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = E749DF422D796C7800AED704;
+						TestTargetID = E7D1225E2D7B296E000A969C;
 					};
 				};
 			};
-			buildConfigurationList = E749DF3E2D796C7800AED704 /* Build configuration list for PBXProject "ApplePie" */;
+			buildConfigurationList = E7D1225A2D7B296E000A969C /* Build configuration list for PBXProject "Apple Pie" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E749DF3A2D796C7800AED704;
+			mainGroup = E7D122562D7B296E000A969C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E749DF442D796C7800AED704 /* Products */;
+			productRefGroup = E7D122602D7B296E000A969C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E749DF422D796C7800AED704 /* ApplePie */,
-				E749DF582D796C7900AED704 /* ApplePieTests */,
-				E749DF622D796C7A00AED704 /* ApplePieUITests */,
+				E7D1225E2D7B296E000A969C /* Apple Pie */,
+				E7D122742D7B2970000A969C /* Apple PieTests */,
+				E7D1227E2D7B2970000A969C /* Apple PieUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E749DF412D796C7800AED704 /* Resources */ = {
+		E7D1225D2D7B296E000A969C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E749DF572D796C7900AED704 /* Resources */ = {
+		E7D122732D7B2970000A969C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E749DF612D796C7A00AED704 /* Resources */ = {
+		E7D1227D2D7B2970000A969C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E749DF3F2D796C7800AED704 /* Sources */ = {
+		E7D1225B2D7B296E000A969C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E749DF552D796C7900AED704 /* Sources */ = {
+		E7D122712D7B2970000A969C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E749DF5F2D796C7A00AED704 /* Sources */ = {
+		E7D1227B2D7B2970000A969C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E749DF5B2D796C7900AED704 /* PBXTargetDependency */ = {
+		E7D122772D7B2970000A969C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E749DF422D796C7800AED704 /* ApplePie */;
-			targetProxy = E749DF5A2D796C7900AED704 /* PBXContainerItemProxy */;
+			target = E7D1225E2D7B296E000A969C /* Apple Pie */;
+			targetProxy = E7D122762D7B2970000A969C /* PBXContainerItemProxy */;
 		};
-		E749DF652D796C7A00AED704 /* PBXTargetDependency */ = {
+		E7D122812D7B2970000A969C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E749DF422D796C7800AED704 /* ApplePie */;
-			targetProxy = E749DF642D796C7A00AED704 /* PBXContainerItemProxy */;
+			target = E7D1225E2D7B296E000A969C /* Apple Pie */;
+			targetProxy = E7D122802D7B2970000A969C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E749DF6D2D796C7A00AED704 /* Debug */ = {
+		E7D122892D7B2970000A969C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ApplePie/Info.plist;
+				INFOPLIST_FILE = "Apple Pie/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.ApplePie";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -313,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		E749DF6E2D796C7A00AED704 /* Release */ = {
+		E7D1228A2D7B2970000A969C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,7 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ApplePie/Info.plist;
+				INFOPLIST_FILE = "Apple Pie/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.ApplePie";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -344,7 +344,7 @@
 			};
 			name = Release;
 		};
-		E749DF6F2D796C7A00AED704 /* Debug */ = {
+		E7D1228B2D7B2970000A969C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -407,7 +407,7 @@
 			};
 			name = Debug;
 		};
-		E749DF702D796C7A00AED704 /* Release */ = {
+		E7D1228C2D7B2970000A969C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -463,7 +463,7 @@
 			};
 			name = Release;
 		};
-		E749DF722D796C7A00AED704 /* Debug */ = {
+		E7D1228E2D7B2970000A969C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,16 +472,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.ApplePieTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.Apple-PieTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApplePie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Pie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple Pie";
 			};
 			name = Debug;
 		};
-		E749DF732D796C7A00AED704 /* Release */ = {
+		E7D1228F2D7B2970000A969C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,87 +490,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.ApplePieTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.Apple-PieTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApplePie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Pie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple Pie";
 			};
 			name = Release;
 		};
-		E749DF752D796C7A00AED704 /* Debug */ = {
+		E7D122912D7B2970000A969C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.ApplePieUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.Apple-PieUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ApplePie;
+				TEST_TARGET_NAME = "Apple Pie";
 			};
 			name = Debug;
 		};
-		E749DF762D796C7A00AED704 /* Release */ = {
+		E7D122922D7B2970000A969C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.ApplePieUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Davis.Apple-PieUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ApplePie;
+				TEST_TARGET_NAME = "Apple Pie";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E749DF3E2D796C7800AED704 /* Build configuration list for PBXProject "ApplePie" */ = {
+		E7D1225A2D7B296E000A969C /* Build configuration list for PBXProject "Apple Pie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E749DF6F2D796C7A00AED704 /* Debug */,
-				E749DF702D796C7A00AED704 /* Release */,
+				E7D1228B2D7B2970000A969C /* Debug */,
+				E7D1228C2D7B2970000A969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E749DF6C2D796C7A00AED704 /* Build configuration list for PBXNativeTarget "ApplePie" */ = {
+		E7D122882D7B2970000A969C /* Build configuration list for PBXNativeTarget "Apple Pie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E749DF6D2D796C7A00AED704 /* Debug */,
-				E749DF6E2D796C7A00AED704 /* Release */,
+				E7D122892D7B2970000A969C /* Debug */,
+				E7D1228A2D7B2970000A969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E749DF712D796C7A00AED704 /* Build configuration list for PBXNativeTarget "ApplePieTests" */ = {
+		E7D1228D2D7B2970000A969C /* Build configuration list for PBXNativeTarget "Apple PieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E749DF722D796C7A00AED704 /* Debug */,
-				E749DF732D796C7A00AED704 /* Release */,
+				E7D1228E2D7B2970000A969C /* Debug */,
+				E7D1228F2D7B2970000A969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E749DF742D796C7A00AED704 /* Build configuration list for PBXNativeTarget "ApplePieUITests" */ = {
+		E7D122902D7B2970000A969C /* Build configuration list for PBXNativeTarget "Apple PieUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E749DF752D796C7A00AED704 /* Debug */,
-				E749DF762D796C7A00AED704 /* Release */,
+				E7D122912D7B2970000A969C /* Debug */,
+				E7D122922D7B2970000A969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E749DF3B2D796C7800AED704 /* Project object */;
+	rootObject = E7D122572D7B296E000A969C /* Project object */;
 }
